@@ -1,0 +1,11 @@
+[
+	"main" : {
+		"board" : {
+			"compact" : "0000 0011 0011 0021"
+		},
+		"actions": [
+			"[C0,2]" : {"action": "play", "label": "Play"},
+			"[C3,0]" : {"action": "exit", "label": "Exit"}
+		]
+	}
+]

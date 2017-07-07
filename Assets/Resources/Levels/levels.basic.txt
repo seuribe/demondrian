@@ -1,0 +1,71 @@
+[
+{	"id" : "basic",
+	"puzzles" : [
+        {
+			"board" : {
+				"size" : 2,
+				"rows" : [
+					[ { "size" : 1, "type" : {"index": 0}}, { "size" : 1, "type" : {"index": 1}} ],
+					[ { "size" : 1, "type" : {"index": 0}}, { "size" : 1, "type" : {"index": 0}} ]
+				]
+			},
+			"types" : [{"index" : 0}, {"index": 1}],
+			"comment": "Basic level to show how to just click on a piece",
+		},
+		{
+			"board" : {
+				"size" : 2,
+				"rows" : [
+					[ { "size" : 1, "type" : {"index": 0}}, { "size" : 1, "type" : {"index": 0}} ],
+					[ { "size" : 1, "type" : {"index": 0}}, { "size" : 1, "type" : {"index": 1}} ]
+				]
+			},
+			"types" : [{"index" : 0}, {"index": 1}],
+			"comment": "Same as previous, but with the piece in other location, so users either rotate or see how other pieces fall",
+		},
+		{
+			"board" : {
+				"size" : 2,
+				"rows" : [
+					[ { "size" : 1, "type" : {"index": 1}}, { "size" : 1, "type" : {"index": 1}} ],
+					[ { "size" : 1, "type" : {"index": 1}}, { "size" : 1, "type" : {"index": 0}} ]
+				]
+			},
+			"types" : [{"index" : 0}, {"index": 1}],
+			"comment": "Same as previous, but with colors inverted",
+		},
+		{
+			"board" : {
+				"size" : 4,
+				"pointers" : ["0/2->0:2", "0/2->2:2", "0/2->2:0", "0/1->0:0", "0/1->1:0", "0/1->0:1", "1/1->1:1"]
+			},
+			"types" : [{"index" : 0}, {"index": 1}],
+			"comment": "First 4x4 board and compaction on two different levels at the same time."
+		},
+        {
+            "board" : {
+                "size" : 4,
+                "compact" : "0110 1101 1010 1100"
+            },
+            "types" : [{"index" : 0}, {"index": 1}],
+            "comment": "test board"
+        },
+		{
+			"board" : {
+				"size" : 4,
+				"compact": "0120 2102 0211 1120"
+			},
+			"types" : [{"index" : 0}, {"index": 1}, {"index": 2}],
+			"comment": "4x4 test"
+		},
+		{
+			"board" : {
+				"size" : 4,
+				"compact": "0020 0012 0211 0020"
+			},
+			"types" : [{"index" : 0}, {"index": 1}, {"index": 2}],
+			"comment": "4x4 test"
+		}
+	]
+},
+]

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 64d4777c1842aab46b497a57972264a9
+timeCreated: 1485541297
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Dolce Vita Heavy
+  fontNames:
+  - Dolce Vita Heavy
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,7 @@
+Library/
+Temp/
+Build/
+obj/
+.consulo/
+.DS_Store
+.idea/
