@@ -1,7 +1,8 @@
 # Demondrian source code #
 
 Demondrian is an abstract puzzle game created by Perro Electrico (Sebastián Uribe)
-It's commercially unreleased; only an old online version saw any public distribution.
+It's commercially unreleased; only an old online version saw any public distribution: http://perroelectrico.com/demondrian/demo/
+
 
 This repository contains the full source code and resources needed for compiling it. It's developed with Unity and requires at least version 5.5 to run.
 
